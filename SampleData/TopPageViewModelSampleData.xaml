@@ -1,0 +1,75 @@
+﻿<ViewModels:TopPageViewModel xmlns:ViewModels="using:ResumeTerminatedAppSample.ViewModels" IsBusy="True">
+	<ViewModels:TopPageViewModel.Groups>
+        <ViewModels:PhotoGroupViewModel Header="Ragdoll" LatestTaked="11/28/2013 21:49:45" UniqueId="Cras aliquam duis class curabitur">
+			<ViewModels:PhotoGroupViewModel.Items>
+                <ViewModels:PhotoItemViewModel ColumnSpan="5" RowSpan="5" IsShowTitle="True" Title="Bye Bye Kitty" Uri="http://farm5.staticflickr.com/4044/4599751105_1b7233a42c.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="cat upturned" Uri="http://farm4.staticflickr.com/3435/3224222619_d95e460908.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="4" RowSpan="2" IsShowTitle="True" Title="" Uri="http://farm4.staticflickr.com/3128/3197749093_58906cd77a.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="In the Limelight" Uri="http://farm8.staticflickr.com/7148/6820912475_a88e71379c.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="i hunt down those blue eyes with my camera." Uri="http://farm4.staticflickr.com/3493/3299355334_01149bd2fb.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="astrid lounging." Uri="http://farm4.staticflickr.com/3435/3197746319_8a6a289541.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="rawr!" Uri="http://farm9.staticflickr.com/8108/8488310734_ea98033173.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Ragdoll cat: The Ballad of Sophia" Uri="http://farm1.staticflickr.com/170/425654936_fd16fabaac.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="a ball of fluff." Uri="http://farm4.staticflickr.com/3435/3224222619_d95e460908.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Khaleesi" Uri="http://farm4.staticflickr.com/3334/3184179556_f18bc41abb.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="apparently this is comfortable" Uri="http://farm4.staticflickr.com/3673/8857151610_7d7f659177.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="DSC_0046.jpg" Uri="http://farm4.staticflickr.com/3582/3301531423_56d58c5dcf.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="4" RowSpan="2" IsShowTitle="True" Title="THE LOOK OF LOVE" Uri="http://farm2.staticflickr.com/1071/1408329659_024de9988f.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="HIGH" Uri="http://farm3.staticflickr.com/2095/2223027810_2beb2eecd7.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Ayunda" Uri="http://farm4.staticflickr.com/3032/2578401101_cafd273265.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="in the middle of a four hour cat nap." Uri="http://farm4.staticflickr.com/3770/10594885393_2f10215553.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="astrid peeking." Uri="http://farm4.staticflickr.com/3307/3262181815_c5bc0c953c.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Hybrid Cat" Uri="http://farm4.staticflickr.com/3652/3283750113_5bd45b2bb5.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Thought of the day:  Thankfully this is not film!" Uri="http://farm6.staticflickr.com/5511/9726347094_5643b80481.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Jazzie" Uri="http://farm4.staticflickr.com/3129/2518043752_5e77066aa2.jpg"/>
+            </ViewModels:PhotoGroupViewModel.Items>
+			<ViewModels:PhotoGroupViewModel.TopItems>
+                <ViewModels:PhotoItemViewModel ColumnSpan="5" RowSpan="5" IsShowTitle="True" Title="Bye Bye Kitty" Uri="http://farm5.staticflickr.com/4044/4599751105_1b7233a42c.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="cat upturned" Uri="http://farm4.staticflickr.com/3435/3224222619_d95e460908.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="4" RowSpan="2" IsShowTitle="True" Title="" Uri="http://farm4.staticflickr.com/3128/3197749093_58906cd77a.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="In the Limelight" Uri="http://farm8.staticflickr.com/7148/6820912475_a88e71379c.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="i hunt down those blue eyes with my camera." Uri="http://farm4.staticflickr.com/3493/3299355334_01149bd2fb.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="astrid lounging." Uri="http://farm4.staticflickr.com/3435/3197746319_8a6a289541.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="rawr!" Uri="http://farm9.staticflickr.com/8108/8488310734_ea98033173.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Ragdoll cat: The Ballad of Sophia" Uri="http://farm1.staticflickr.com/170/425654936_fd16fabaac.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="a ball of fluff." Uri="http://farm4.staticflickr.com/3435/3224222619_d95e460908.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Khaleesi" Uri="http://farm4.staticflickr.com/3334/3184179556_f18bc41abb.jpg"/>
+            </ViewModels:PhotoGroupViewModel.TopItems>
+		</ViewModels:PhotoGroupViewModel>
+        <ViewModels:PhotoGroupViewModel Header="Norwegian Forest Cat" LatestTaked="11/28/2013 21:49:45" UniqueId="Cras aliquam duis class curabitur">
+            <ViewModels:PhotoGroupViewModel.Items>
+                <ViewModels:PhotoItemViewModel ColumnSpan="5" RowSpan="5" IsShowTitle="True" Title="Sweet memories from 2008" Uri="http://farm3.staticflickr.com/2563/4221435603_14ca67fcc2.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Taz and Lilah playing under the covers" Uri="http://farm4.staticflickr.com/3156/2858792383_8d0c2bb1a0.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="4" RowSpan="2" IsShowTitle="True" Title="Dory &amp; Bohriz baby 5 weeks !!" Uri="http://farm3.staticflickr.com/2345/2037537780_49d846e086.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Dorys &amp; Bohriz baby 3 weeks !!" Uri="http://farm3.staticflickr.com/2291/1824048984_c7a31196ec.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Pollo" Uri="http://farm1.staticflickr.com/140/390405553_2975b709d9.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="My Norwegian Forest Cat" Uri="http://farm1.staticflickr.com/146/359669760_25c158a7ff.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Max" Uri="http://farm1.staticflickr.com/119/302820767_2730cbbca5.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Henke" Uri="http://farm1.staticflickr.com/115/302817935_eb95c45f52.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Zico" Uri="http://farm1.staticflickr.com/104/302815265_49a6d1c8bc.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Max" Uri="http://farm1.staticflickr.com/94/268482207_e0e6d615b6.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Leo'n" Uri="http://farm1.staticflickr.com/91/268481511_a1f93eec4e.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Max" Uri="http://farm1.staticflickr.com/116/268481281_c0830702ae.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="4" RowSpan="2" IsShowTitle="True" Title="Our baby is now 6 weeks old and we call him Ior !!!" Uri="http://farm3.staticflickr.com/2284/2056647379_b5403bc6e5.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Baby Henke" Uri="http://farm1.staticflickr.com/102/302818081_54c58a4c6d.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Ermengol" Uri="http://farm4.staticflickr.com/3106/3133728212_93c2da3154.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Bohriz &amp; Dory's baby boy two weeks old !!" Uri="http://farm3.staticflickr.com/2351/1743926513_e92ac54e56.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Sydney" Uri="http://farm1.staticflickr.com/101/384051353_6dfc451adb.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Neska posant el perfil bo" Uri="http://farm1.staticflickr.com/127/355192326_412268c817.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Our baby is now 9 weeks old !!" Uri="http://farm3.staticflickr.com/2416/2112463181_a989f53b42.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Our baby is now 9 weeks old !!" Uri="http://farm3.staticflickr.com/2077/2112462693_fb144f4397.jpg"/>
+            </ViewModels:PhotoGroupViewModel.Items>
+            <ViewModels:PhotoGroupViewModel.TopItems>
+                <ViewModels:PhotoItemViewModel ColumnSpan="5" RowSpan="5" IsShowTitle="True" Title="Sweet memories from 2008" Uri="http://farm3.staticflickr.com/2563/4221435603_14ca67fcc2.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Taz and Lilah playing under the covers" Uri="http://farm4.staticflickr.com/3156/2858792383_8d0c2bb1a0.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="4" RowSpan="2" IsShowTitle="True" Title="Dory &amp; Bohriz baby 5 weeks !!" Uri="http://farm3.staticflickr.com/2345/2037537780_49d846e086.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Dorys &amp; Bohriz baby 3 weeks !!" Uri="http://farm3.staticflickr.com/2291/1824048984_c7a31196ec.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Pollo" Uri="http://farm1.staticflickr.com/140/390405553_2975b709d9.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="My Norwegian Forest Cat" Uri="http://farm1.staticflickr.com/146/359669760_25c158a7ff.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Max" Uri="http://farm1.staticflickr.com/119/302820767_2730cbbca5.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="1" RowSpan="1" IsShowTitle="False" Title="Henke" Uri="http://farm1.staticflickr.com/115/302817935_eb95c45f52.jpg"/>
+                <ViewModels:PhotoItemViewModel ColumnSpan="2" RowSpan="2" IsShowTitle="True" Title="Zico" Uri="http://farm1.staticflickr.com/104/302815265_49a6d1c8bc.jpg"/>
+            </ViewModels:PhotoGroupViewModel.TopItems>
+        </ViewModels:PhotoGroupViewModel>
+    </ViewModels:TopPageViewModel.Groups>
+</ViewModels:TopPageViewModel>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+<photos page="1" pages="1" perpage="100" total="6">
+	<photo id="4206810683" owner="24176761@N00" secret="643baf8e53" server="4055" farm="5" title="Oshejoy" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-12-21 22:36:03" datetakengranularity="0" />
+	<photo id="2324566958" owner="7519891@N08" secret="41250b5476" server="3128" farm="4" title="Your slipper? I found it!" ispublic="1" isfriend="0" isfamily="0" datetaken="2008-03-10 15:35:21" datetakengranularity="0" />
+	<photo id="2763129064" owner="7519891@N08" secret="b1eec0bf2c" server="3247" farm="4" title="Get me outta here!" ispublic="1" isfriend="0" isfamily="0" datetaken="2008-08-14 14:42:44" datetakengranularity="0" />
+	<photo id="3589808803" owner="24176761@N00" secret="ed047e6685" server="3348" farm="4" title="Sweet Dreams" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-05-23 04:17:52" datetakengranularity="0" />
+	<photo id="1335432571" owner="7519891@N08" secret="5c488d227d" server="1416" farm="2" title="Morgan, Havana kitten" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-09-05 14:23:22" datetakengranularity="0" />
+	<photo id="3097218044" owner="24176761@N00" secret="51d42ca954" server="3252" farm="4" title="&quot;Oh Dear...Here Comes That Camera Again....!&quot;" ispublic="1" isfriend="0" isfamily="0" datetaken="2008-12-01 20:51:09" datetakengranularity="0" />
+</photos>
+</rsp>

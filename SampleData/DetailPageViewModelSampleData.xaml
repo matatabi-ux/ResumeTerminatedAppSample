@@ -1,0 +1,15 @@
+﻿<ViewModels:DetailPageViewModel xmlns:ViewModels="using:ResumeTerminatedAppSample.ViewModels">
+	<ViewModels:DetailPageViewModel.SelectedItem>
+        <ViewModels:PhotoItemViewModel ColumnSpan="5" RowSpan="5" IsShowTitle="True" Title="cat upturned" Uri="http://farm5.staticflickr.com/4044/4599751105_1b7233a42c.jpg"/>
+    </ViewModels:DetailPageViewModel.SelectedItem>
+	<ViewModels:DetailPageViewModel.CurrentGroup>
+		<ViewModels:PhotoGroupViewModel Header="Aliquam lorem amet" LatestTaked="11/28/2013 22:23:52" UniqueId="Fusce adipiscing consequat sed dis">
+			<ViewModels:PhotoGroupViewModel.Items>
+                <ViewModels:PhotoItemViewModel ColumnSpan="5" RowSpan="5" IsShowTitle="True" Title="cat upturned" Uri="http://farm5.staticflickr.com/4044/4599751105_1b7233a42c.jpg"/>
+            </ViewModels:PhotoGroupViewModel.Items>
+			<ViewModels:PhotoGroupViewModel.TopItems>
+                <ViewModels:PhotoItemViewModel ColumnSpan="5" RowSpan="5" IsShowTitle="True" Title="cat upturned" Uri="http://farm5.staticflickr.com/4044/4599751105_1b7233a42c.jpg"/>
+            </ViewModels:PhotoGroupViewModel.TopItems>
+		</ViewModels:PhotoGroupViewModel>
+	</ViewModels:DetailPageViewModel.CurrentGroup>
+</ViewModels:DetailPageViewModel>

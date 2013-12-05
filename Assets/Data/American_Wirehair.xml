@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+<photos page="1" pages="1" perpage="100" total="7">
+	<photo id="4398922555" owner="48012500@N04" secret="9a2269d145" server="2769" farm="3" title="american wirehair cats" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-01-31 20:59:45" datetakengranularity="0" />
+	<photo id="4398922687" owner="48012500@N04" secret="6a38f26ae4" server="2801" farm="3" title="cat american-wirehair" ispublic="1" isfriend="0" isfamily="0" datetaken="2005-10-08 14:33:36" datetakengranularity="0" />
+	<photo id="4398922657" owner="48012500@N04" secret="3248080861" server="4067" farm="5" title="cat american-wire hair" ispublic="1" isfriend="0" isfamily="0" datetaken="2003-05-19 07:27:19" datetakengranularity="0" />
+	<photo id="4399688962" owner="48012500@N04" secret="701f0bc16d" server="4032" farm="5" title="american-wirehair-cat-2" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-03-01 14:08:08" datetakengranularity="0" />
+	<photo id="4399688948" owner="48012500@N04" secret="fac3f7d797" server="2681" farm="3" title="americanwirehair cat" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-05-12 13:55:47" datetakengranularity="0" />
+	<photo id="4399688922" owner="48012500@N04" secret="1044e88d0f" server="2732" farm="3" title="american-cat wirehair" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-03-01 14:08:07" datetakengranularity="0" />
+	<photo id="4399688864" owner="48012500@N04" secret="6aaf3a9b3d" server="2707" farm="3" title="american wirehair" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-03-01 14:08:06" datetakengranularity="0" />
+</photos>
+</rsp>
