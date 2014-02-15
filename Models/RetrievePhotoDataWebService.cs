@@ -104,13 +104,6 @@ namespace ResumeTerminatedAppSample.Models
                         photo.Attributes.GetNamedItem("ownername").NodeValue as string,
                         searchTag));
                 }
-
-                var file = await ApplicationData.Current.LocalFolder.CreateFileAsync(string.Format("{0}.xml", searchTag.Replace(" ", "_")), CreationCollisionOption.OpenIfExists);
-                using(var writer = new StreamWriter(await file.OpenStreamForWriteAsync()))
-                {
-                    await writer.WriteAsync(txt);
-                    await writer.FlushAsync();
-                }
             }
             catch(WebException ex)
             {
