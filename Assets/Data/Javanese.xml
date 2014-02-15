@@ -1,14 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <rsp stat="ok">
-<photos page="1" pages="1" perpage="100" total="9">
-	<photo id="9961001436" owner="19124885@N00" secret="8c533ef5f6" server="2888" farm="3" title="JazzPurr" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-12-18 12:32:34" datetakengranularity="0" />
-	<photo id="128253908" owner="19124885@N00" secret="6d8f76f4be" server="51" farm="1" title="Tai Jaide &amp; the Jelly Opal (3)" ispublic="1" isfriend="0" isfamily="0" datetaken="2006-04-13 22:52:45" datetakengranularity="0" />
-	<photo id="128253909" owner="19124885@N00" secret="4aace24ffb" server="49" farm="1" title="Tai Jaide &amp; the Jelly Opal (2)" ispublic="1" isfriend="0" isfamily="0" datetaken="2006-04-13 22:57:24" datetakengranularity="0" />
-	<photo id="1684360036" owner="19124885@N00" secret="2cb61b4ad3" server="2215" farm="3" title="JazzPurr" ispublic="1" isfriend="0" isfamily="0" datetaken="2006-03-11 07:00:20" datetakengranularity="0" />
-	<photo id="6122798196" owner="14791653@N00" secret="8e94d6bc5e" server="6081" farm="7" title="VALI. 6 Sept. - DSC_8694" ispublic="1" isfriend="0" isfamily="0" datetaken="2011-09-06 23:18:31" datetakengranularity="0" />
-	<photo id="4524396614" owner="14791653@N00" secret="9d7da053d2" server="2781" farm="3" title="VALI - DSC_2732" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-04-15 17:25:30" datetakengranularity="0" />
-	<photo id="4368883963" owner="14791653@N00" secret="960bca87c3" server="4057" farm="5" title="Vali  DSC_0800" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-02-18 22:26:18" datetakengranularity="0" />
-	<photo id="128253906" owner="19124885@N00" secret="24b9be3d0b" server="52" farm="1" title="Tai Jaide &amp; the Jelly Opal (1)" ispublic="1" isfriend="0" isfamily="0" datetaken="2006-04-13 22:56:52" datetakengranularity="0" />
-	<photo id="316789013" owner="14791653@N00" secret="5c6ac97a39" server="107" farm="1" title="Vali closeup 8292" ispublic="1" isfriend="0" isfamily="0" datetaken="2006-12-07 20:45:18" datetakengranularity="0" />
+<photos page="1" pages="1" perpage="100" total="1">
+	<photo id="6505576229" owner="61021753@N02" secret="e1f021c902" server="7166" farm="8" title="n282_w1150" ispublic="1" isfriend="0" isfamily="0" datetaken="2011-12-13 10:42:29" datetakengranularity="0" ownername="BioDivLibrary" />
 </photos>
 </rsp>

@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Windows.Data.Xml.Dom;
+using Windows.Storage;
 
 namespace ResumeTerminatedAppSample.Models
 {
@@ -46,7 +48,7 @@ namespace ResumeTerminatedAppSample.Models
         /// <summary>
         /// 追加取得項目
         /// </summary>
-        private static readonly string Extras = @"date_taken";
+        private static readonly string Extras = @"date_taken,owner_name";
 
         #endregion //Privates
 
@@ -70,7 +72,7 @@ namespace ResumeTerminatedAppSample.Models
                 var client = new HttpClient();
 
                 var requestUri = string.Format(
-                    "{0}/{1}?method={2}&per_page={3}&api_key={4}&sort={5}&tags={6}&tag_mode=all&extras={7}",
+                    "{0}/{1}?method={2}&per_page={3}&api_key={4}&sort={5}&tags={6}&tag_mode=all&extras={7}&license=1,2,3,4,5,6",
                     EndPoint.AbsoluteUri,
                     Format,
                     Method,
@@ -99,10 +101,16 @@ namespace ResumeTerminatedAppSample.Models
                         photo.Attributes.GetNamedItem("title").NodeValue as string,
                         uri,
                         photo.Attributes.GetNamedItem("datetaken").NodeValue as string,
-                        photo.Attributes.GetNamedItem("owner").NodeValue as string,
+                        photo.Attributes.GetNamedItem("ownername").NodeValue as string,
                         searchTag));
                 }
 
+                var file = await ApplicationData.Current.LocalFolder.CreateFileAsync(string.Format("{0}.xml", searchTag.Replace(" ", "_")), CreationCollisionOption.OpenIfExists);
+                using(var writer = new StreamWriter(await file.OpenStreamForWriteAsync()))
+                {
+                    await writer.WriteAsync(txt);
+                    await writer.FlushAsync();
+                }
             }
             catch(WebException ex)
             {

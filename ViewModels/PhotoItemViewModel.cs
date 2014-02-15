@@ -43,9 +43,9 @@ namespace ResumeTerminatedAppSample.ViewModels
         private DateTime dataTaken;
 
         /// <summary>
-        /// 概要
+        /// 作者名
         /// </summary>
-        private string description;
+        private string ownerName;
 
         /// <summary>
         /// タグ
@@ -115,13 +115,13 @@ namespace ResumeTerminatedAppSample.ViewModels
         }
 
         /// <summary>
-        /// 概要
+        /// 作者名
         /// </summary>
         [DataMember]
-        public string Description
+        public string OwnerName
         {
-            get { return this.description; }
-            set { this.SetProperty(ref this.description, value); }
+            get { return this.ownerName; }
+            set { this.SetProperty(ref this.ownerName, value); }
         }
 
         /// <summary>
@@ -162,8 +162,8 @@ namespace ResumeTerminatedAppSample.ViewModels
                 UniqueId = source.UniqueId,
                 Uri = source.Uri,
                 DateTaken = source.DateTaken,
-                Title = source.Title,
-                Description = source.Description,
+                Title =  source.Title,
+                OwnerName = source.OwnerName,
                 Tag = source.Tag,
             };
         }

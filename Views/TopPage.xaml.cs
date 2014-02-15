@@ -1,8 +1,10 @@
-﻿using ResumeTerminatedAppSample.Framework;
+﻿using ResumeTerminatedAppSample.Controls;
+using ResumeTerminatedAppSample.Framework;
 using ResumeTerminatedAppSample.Presenters;
 using ResumeTerminatedAppSample.ViewModels;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Data;
 
 namespace ResumeTerminatedAppSample.Views
 {
@@ -58,6 +60,17 @@ namespace ResumeTerminatedAppSample.Views
         {
             var button = sender as Button;
             this.Presenter.HeaderClick(button.DataContext as PhotoGroupViewModel);
+        }
+
+        /// <summary>
+        /// 選択中アイテム変更イベントハンドラ
+        /// </summary>
+        /// <param name="sender">イベント発行者</param>
+        /// <param name="e">イベント引数</param>
+        private void OnGridViewSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var vm = this.DataContext as TopPageViewModel;
+            //this.BottomAppBar.IsOpen = vm.SelectedItems.Count > 0;
         }
     }
 }

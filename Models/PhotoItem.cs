@@ -29,9 +29,9 @@ namespace ResumeTerminatedAppSample.Models
         public DateTime DateTaken { get; protected set; }
 
         /// <summary>
-        /// 概要
+        /// 作者名
         /// </summary>
-        public string Description { get; protected set; }
+        public string OwnerName { get; protected set; }
 
         /// <summary>
         /// タグ
@@ -50,7 +50,7 @@ namespace ResumeTerminatedAppSample.Models
             string title,
             string uri,
             string dateTaken,
-            string description = default(string),
+            string ownername = default(string),
             string tag = default(string))
         {
             this.UniqueId = uniqueId;
@@ -64,7 +64,7 @@ namespace ResumeTerminatedAppSample.Models
             {
                 this.DateTaken = DateTime.MinValue;
             }
-            this.Description = description;
+            this.OwnerName = ownername;
             this.Tag = tag;
         }
     }

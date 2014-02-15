@@ -1,63 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <rsp stat="ok">
-<photos page="1" pages="1" perpage="100" total="58">
-	<photo id="2884406543" owner="56814361@N00" secret="451954cecb" server="3212" farm="4" title="my new cat -  Kissy" ispublic="1" isfriend="0" isfamily="0" datetaken="2008-09-22 21:01:31" datetakengranularity="0" />
-	<photo id="4706181433" owner="32911349@N04" secret="4fa8482712" server="4031" farm="5" title="L1051520" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-06-16 18:06:02" datetakengranularity="0" />
-	<photo id="8668667684" owner="75885098@N05" secret="b6ce8b1109" server="8522" farm="9" title="American Curl cat and more from the Pet Expo" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-04-19 12:57:04" datetakengranularity="0" />
-	<photo id="2405694246" owner="25522211@N04" secret="ca9be6bc16" server="2118" farm="3" title="Tigra's Tongue Out" ispublic="1" isfriend="0" isfamily="0" datetaken="2008-04-11 07:07:03" datetakengranularity="0" />
-	<photo id="3835828604" owner="25522211@N04" secret="c2dc83d480" server="2620" farm="3" title="Restful" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-07-19 00:55:54" datetakengranularity="0" />
-	<photo id="3763984739" owner="25522211@N04" secret="1cc4b2dd82" server="3535" farm="4" title="Is something on my head?" ispublic="1" isfriend="0" isfamily="0" datetaken="2004-12-25 09:41:33" datetakengranularity="0" />
-	<photo id="9087073437" owner="23485844@N05" secret="5e11f79b64" server="7307" farm="8" title="Larry and Twinkie" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-06-19 16:45:06" datetakengranularity="0" />
-	<photo id="4670222370" owner="25522211@N04" secret="317335c1f6" server="4025" farm="5" title="Gracie" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-08-31 16:30:08" datetakengranularity="0" />
-	<photo id="4615754808" owner="25522211@N04" secret="b427bf0390" server="3299" farm="4" title="Gracie in the Window" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-05-01 02:03:34" datetakengranularity="0" />
-	<photo id="3961725032" owner="25522211@N04" secret="9d966195c9" server="2544" farm="3" title="Silhouette" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-04-25 10:48:07" datetakengranularity="0" />
-	<photo id="8212347770" owner="23485844@N05" secret="1281f54297" server="8057" farm="9" title="Too much turkey" ispublic="1" isfriend="0" isfamily="0" datetaken="2012-11-23 14:40:45" datetakengranularity="0" />
-	<photo id="8172186825" owner="23485844@N05" secret="c9f03eb0f2" server="8344" farm="9" title="I spy . . ." ispublic="1" isfriend="0" isfamily="0" datetaken="2012-11-09 11:04:41" datetakengranularity="0" />
-	<photo id="8063336934" owner="23485844@N05" secret="f52413c4d7" server="8040" farm="9" title="Meet Twinkie" ispublic="1" isfriend="0" isfamily="0" datetaken="2012-10-07 07:49:14" datetakengranularity="0" />
-	<photo id="4387523682" owner="25522211@N04" secret="f10395ae30" server="2760" farm="3" title="Gracie" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-02-20 02:43:21" datetakengranularity="0" />
-	<photo id="3764850398" owner="25522211@N04" secret="aa650891f9" server="2605" farm="3" title="Yawn" ispublic="1" isfriend="0" isfamily="0" datetaken="2005-06-10 11:21:44" datetakengranularity="0" />
-	<photo id="3764780128" owner="25522211@N04" secret="a4096ff172" server="3494" farm="4" title="Rub my belly please" ispublic="1" isfriend="0" isfamily="0" datetaken="2005-08-14 02:52:25" datetakengranularity="0" />
-	<photo id="10123640503" owner="23485844@N05" secret="27f01f8705" server="5517" farm="6" title="sunbathing" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-10-06 13:21:43" datetakengranularity="0" />
-	<photo id="4719290593" owner="25522211@N04" secret="a9923872ba" server="4015" farm="5" title="P1060536-4" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-04-25 10:39:06" datetakengranularity="0" />
-	<photo id="4724252485" owner="25522211@N04" secret="5d73799bbc" server="1060" farm="2" title="Sun Catcher" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-05-06 20:16:10" datetakengranularity="0" />
-	<photo id="8307354267" owner="23485844@N05" secret="ed5020a5b2" server="8078" farm="9" title="Twinkie, Christmas 2012" ispublic="1" isfriend="0" isfamily="0" datetaken="2012-12-25 10:35:17" datetakengranularity="0" />
-	<photo id="3764780846" owner="25522211@N04" secret="82550a36db" server="3538" farm="4" title="So you must be looking at me." ispublic="1" isfriend="0" isfamily="0" datetaken="2007-01-24 16:26:29" datetakengranularity="0" />
-	<photo id="4183126033" owner="25522211@N04" secret="1eeaf88dcd" server="2618" farm="3" title="Yawn." ispublic="1" isfriend="0" isfamily="0" datetaken="2009-12-05 08:52:10" datetakengranularity="0" />
-	<photo id="3767825034" owner="25522211@N04" secret="deaf7193ea" server="3520" farm="4" title="You are falling into a deep trance..." ispublic="1" isfriend="0" isfamily="0" datetaken="2008-07-12 22:05:37" datetakengranularity="0" />
-	<photo id="3766157913" owner="25522211@N04" secret="b969c4bc3c" server="3571" farm="4" title="Nice Hat" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-07-28 16:29:05" datetakengranularity="0" />
-	<photo id="3763982685" owner="25522211@N04" secret="b6f1252354" server="2602" farm="3" title="Could this possibly be comfy?" ispublic="1" isfriend="0" isfamily="0" datetaken="2005-07-24 17:14:36" datetakengranularity="0" />
-	<photo id="8584763848" owner="23485844@N05" secret="9e6b13005b" server="8530" farm="9" title="Bird watching" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-03-23 19:56:19" datetakengranularity="0" />
-	<photo id="8861415391" owner="23485844@N05" secret="0049daea1f" server="7392" farm="8" title="twinkie" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-05-27 20:07:49" datetakengranularity="0" />
-	<photo id="8140219041" owner="23485844@N05" secret="7251950558" server="8190" farm="9" title="Happy Cat" ispublic="1" isfriend="0" isfamily="0" datetaken="2012-10-28 16:09:12" datetakengranularity="0" />
-	<photo id="3835827602" owner="25522211@N04" secret="7fc6387342" server="2576" farm="3" title="Waiting for Daddy" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-10-27 19:28:52" datetakengranularity="0" />
-	<photo id="3766959206" owner="25522211@N04" secret="19371f7b27" server="3575" farm="4" title="The collar..." ispublic="1" isfriend="0" isfamily="0" datetaken="2007-07-22 20:51:05" datetakengranularity="0" />
-	<photo id="3766159517" owner="25522211@N04" secret="dac25d237d" server="2638" farm="3" title="Curled ears and tabby stripes" ispublic="1" isfriend="0" isfamily="0" datetaken="2006-07-06 04:38:19" datetakengranularity="0" />
-	<photo id="3764052315" owner="25522211@N04" secret="7f757142e7" server="3513" farm="4" title="Bath Time?" ispublic="1" isfriend="0" isfamily="0" datetaken="2005-06-03 19:10:48" datetakengranularity="0" />
-	<photo id="8376044057" owner="23485844@N05" secret="7a2475f0f7" server="8221" farm="9" title="This is my piano" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-01-13 09:04:01" datetakengranularity="0" />
-	<photo id="8255175762" owner="23485844@N05" secret="1f3d8588ee" server="8344" farm="9" title="sleeping under the tree" ispublic="1" isfriend="0" isfamily="0" datetaken="2012-12-03 12:44:17" datetakengranularity="0" />
-	<photo id="3835828158" owner="25522211@N04" secret="ace876d64e" server="2655" farm="3" title="P1060536" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-04-25 10:39:06" datetakengranularity="0" />
-	<photo id="3764781852" owner="25522211@N04" secret="73fe67cbdb" server="3596" farm="4" title="Poof Hug" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-07-28 00:21:21" datetakengranularity="0" />
-	<photo id="3764781774" owner="25522211@N04" secret="ec5656722b" server="2544" farm="3" title="zP1010016" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-07-28 00:21:19" datetakengranularity="0" />
-	<photo id="3764781404" owner="25522211@N04" secret="a21a4c07e7" server="2546" farm="3" title="Waiting" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-10-27 19:28:12" datetakengranularity="0" />
-	<photo id="3764780388" owner="25522211@N04" secret="f97ddfd639" server="2460" farm="3" title="Are you looking at me?" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-01-24 16:26:07" datetakengranularity="0" />
-	<photo id="8083086985" owner="23485844@N05" secret="c3ca5e80b9" server="8189" farm="9" title="sleepy cat" ispublic="1" isfriend="0" isfamily="0" datetaken="2012-10-12 21:44:46" datetakengranularity="0" />
-	<photo id="4670222474" owner="25522211@N04" secret="0a197af2b4" server="4006" farm="5" title="Gracie" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-10-18 13:10:01" datetakengranularity="0" />
-	<photo id="4664017028" owner="25522211@N04" secret="5f09c77770" server="4041" farm="5" title="Pretty Boo" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-05-13 16:08:12" datetakengranularity="0" />
-	<photo id="3960951175" owner="25522211@N04" secret="3cdd2b31a3" server="2619" farm="3" title="Silhouette" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-04-25 10:48:18" datetakengranularity="0" />
-	<photo id="3879582527" owner="25522211@N04" secret="8cf7b76341" server="2664" farm="3" title="0704091222" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-09-01 20:11:30" datetakengranularity="0" />
-	<photo id="3766958066" owner="25522211@N04" secret="e127b5ef95" server="2555" farm="3" title="Climbing Boo" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-04-27 18:25:54" datetakengranularity="0" />
-	<photo id="3766956996" owner="25522211@N04" secret="0eea7664ec" server="3450" farm="4" title="American Curl on my back again" ispublic="1" isfriend="0" isfamily="0" datetaken="2005-08-14 12:53:40" datetakengranularity="0" />
-	<photo id="3766160103" owner="25522211@N04" secret="89a39609b4" server="2586" farm="3" title="American Curl on My Back" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-04-27 18:25:39" datetakengranularity="0" />
-	<photo id="3766158809" owner="25522211@N04" secret="fcea5389c7" server="2553" farm="3" title="Tigra the American Curl" ispublic="1" isfriend="0" isfamily="0" datetaken="2005-03-04 06:59:58" datetakengranularity="0" />
-	<photo id="3764781118" owner="25522211@N04" secret="5110a402aa" server="3485" farm="4" title="A curled up Curl" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-04-08 17:20:48" datetakengranularity="0" />
-	<photo id="3764780646" owner="25522211@N04" secret="80c5537209" server="2521" farm="3" title="I don't see anyone else here..." ispublic="1" isfriend="0" isfamily="0" datetaken="2007-01-24 16:26:20" datetakengranularity="0" />
-	<photo id="3763984341" owner="25522211@N04" secret="16d401f45d" server="2561" farm="3" title="zP1010015" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-07-28 00:21:17" datetakengranularity="0" />
-	<photo id="10123452954" owner="23485844@N05" secret="253095a4ed" server="7302" farm="8" title="nap time" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-10-06 13:21:42" datetakengranularity="0" />
-	<photo id="8446951745" owner="23485844@N05" secret="64e0ff9451" server="8078" farm="9" title="Giving me the eye" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-01-06 08:48:39" datetakengranularity="0" />
-	<photo id="8446917475" owner="23485844@N05" secret="9157bc00f0" server="8501" farm="9" title="This is my recliner" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-02-03 09:01:20" datetakengranularity="0" />
-	<photo id="8106484388" owner="23485844@N05" secret="df721f0da3" server="8187" farm="9" title="relaxing" ispublic="1" isfriend="0" isfamily="0" datetaken="2012-10-16 13:38:12" datetakengranularity="0" />
-	<photo id="10123460956" owner="23485844@N05" secret="afa662d72e" server="7348" farm="8" title="Master of relaxation" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-10-06 13:16:02" datetakengranularity="0" />
-	<photo id="8448007970" owner="23485844@N05" secret="a250d80a92" server="8196" farm="9" title="Curl ears" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-02-03 09:03:45" datetakengranularity="0" />
-	<photo id="8448006840" owner="23485844@N05" secret="f1809f9290" server="8228" farm="9" title="Relaxation" ispublic="1" isfriend="0" isfamily="0" datetaken="2012-12-16 13:15:59" datetakengranularity="0" />
+<photos page="1" pages="1" perpage="100" total="8">
+	<photo id="3835828604" owner="25522211@N04" secret="c2dc83d480" server="2620" farm="3" title="Restful" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-07-19 00:55:54" datetakengranularity="0" ownername="mpgulley" />
+	<photo id="4615754808" owner="25522211@N04" secret="b427bf0390" server="3299" farm="4" title="Gracie in the Window" ispublic="1" isfriend="0" isfamily="0" datetaken="2010-05-01 02:03:34" datetakengranularity="0" ownername="mpgulley" />
+	<photo id="3961725032" owner="25522211@N04" secret="9d966195c9" server="2544" farm="3" title="Silhouette" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-04-25 10:48:07" datetakengranularity="0" ownername="mpgulley" />
+	<photo id="11552875276" owner="23485844@N05" secret="0b2fb912e2" server="5484" farm="6" title="Twinkie close up" ispublic="1" isfriend="0" isfamily="0" datetaken="2013-12-25 12:08:20" datetakengranularity="0" ownername="Chica-tica" />
+	<photo id="4183126033" owner="25522211@N04" secret="1eeaf88dcd" server="2618" farm="3" title="Yawn." ispublic="1" isfriend="0" isfamily="0" datetaken="2009-12-05 08:52:10" datetakengranularity="0" ownername="mpgulley" />
+	<photo id="3835828158" owner="25522211@N04" secret="ace876d64e" server="2655" farm="3" title="P1060536" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-04-25 10:39:06" datetakengranularity="0" ownername="mpgulley" />
+	<photo id="4664017028" owner="25522211@N04" secret="5f09c77770" server="4041" farm="5" title="Pretty Boo" ispublic="1" isfriend="0" isfamily="0" datetaken="2007-05-13 16:08:12" datetakengranularity="0" ownername="mpgulley" />
+	<photo id="3960951175" owner="25522211@N04" secret="3cdd2b31a3" server="2619" farm="3" title="Silhouette" ispublic="1" isfriend="0" isfamily="0" datetaken="2009-04-25 10:48:18" datetakengranularity="0" ownername="mpgulley" />
 </photos>
 </rsp>

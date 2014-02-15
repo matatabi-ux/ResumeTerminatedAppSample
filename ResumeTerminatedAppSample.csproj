@@ -105,6 +105,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Behaviors\ScrollBarBindableBehavior.cs" />
     <Compile Include="Common\BindableBase.cs" />
     <Compile Include="Controls\VariableSizedGridView.cs" />
     <Compile Include="Converters\BoolToVisibilityConverter.cs" />
@@ -156,6 +157,23 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Assets\Data\Abyssinian_Cat.xml" />
+    <Content Include="Assets\Data\American_Bobtail.xml" />
+    <Content Include="Assets\Data\American_Curl.xml" />
+    <Content Include="Assets\Data\Birman.xml" />
+    <Content Include="Assets\Data\British_Shorthair.xml" />
+    <Content Include="Assets\Data\Burmese_Cats.xml" />
+    <Content Include="Assets\Data\Javanese.xml" />
+    <Content Include="Assets\Data\Maine_Coon.xml" />
+    <Content Include="Assets\Data\Norwegian_Forest_Cat.xml" />
+    <Content Include="Assets\Data\Ocicat.xml" />
+    <Content Include="Assets\Data\Persian_Cats.xml" />
+    <Content Include="Assets\Data\Ragdoll.xml" />
+    <Content Include="Assets\Data\Russian_Blue.xml" />
+    <Content Include="Assets\Data\Scottish_Fold.xml" />
+    <Content Include="Assets\Data\Singapura.xml" />
+    <Content Include="Assets\Data\Snowshoe.xml" />
+    <Content Include="Assets\Data\Somali.xml" />
     <Content Include="InfrastructureAssemblies\Microsoft.Practices.ServiceLocation.dll" />
     <Page Include="Views\AboutFlyout.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -176,31 +194,6 @@
     <None Include="Common\ReadMe.txt" />
     <None Include="ResumeTerminatedAppSample_TemporaryKey.pfx" />
     <Content Include="Assets\Badge.scale-100.png" />
-    <Content Include="Assets\Data\Abyssinian_Cat.xml" />
-    <Content Include="Assets\Data\American_Bobtail.xml" />
-    <Content Include="Assets\Data\American_Curl.xml" />
-    <Content Include="Assets\Data\American_Shorthair.xml" />
-    <Content Include="Assets\Data\American_Wirehair.xml" />
-    <Content Include="Assets\Data\Birman.xml" />
-    <Content Include="Assets\Data\British_Shorthair.xml" />
-    <Content Include="Assets\Data\Burmese_Cats.xml" />
-    <Content Include="Assets\Data\Egyptian_Mau.xml" />
-    <Content Include="Assets\Data\European_Shorthair.xml" />
-    <Content Include="Assets\Data\Havana_Brown.xml" />
-    <Content Include="Assets\Data\Japanese_Bobtail.xml" />
-    <Content Include="Assets\Data\Javanese.xml" />
-    <Content Include="Assets\Data\Maine_Coon.xml" />
-    <Content Include="Assets\Data\Munchkin_Cats.xml" />
-    <Content Include="Assets\Data\Norwegian_Forest_Cat.xml" />
-    <Content Include="Assets\Data\Ocicat.xml" />
-    <Content Include="Assets\Data\Persian_Cats.xml" />
-    <Content Include="Assets\Data\Ragdoll.xml" />
-    <Content Include="Assets\Data\Russian_Blue.xml" />
-    <Content Include="Assets\Data\Scottish_Fold.xml" />
-    <Content Include="Assets\Data\Singapura.xml" />
-    <Content Include="Assets\Data\Snowshoe.xml" />
-    <Content Include="Assets\Data\Somali.xml" />
-    <Content Include="Assets\Data\Tonkinese.xml" />
     <Content Include="Assets\SplashScreen.scale-140.png" />
   </ItemGroup>
   <ItemGroup>
@@ -221,9 +214,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>InfrastructureAssemblies\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <SDKReference Include="BehaviorsXamlSDKManaged, Version=12.0" />
+    <Reference Include="Microsoft.Xaml.Interactivity, Version=12.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <DesignData Include="SampleData\DetailPageViewModelSampleData.xaml">

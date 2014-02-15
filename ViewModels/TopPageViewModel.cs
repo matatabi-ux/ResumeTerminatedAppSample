@@ -1,20 +1,24 @@
 ﻿using System.Collections.Generic;
 using ResumeTerminatedAppSample.Framework;
+using System.Runtime.Serialization;
+using System.Collections.ObjectModel;
 
 namespace ResumeTerminatedAppSample.ViewModels
 {
     /// <summary>
     ///  トップ画面 ViewModel
     /// </summary>
+    [DataContract]
     public class TopPageViewModel : ViewModelBase
     {
         /// <summary>
         /// 情報取得中フラグ
         /// </summary>
+        [IgnoreDataMember]
         public bool IsBusy
         {
-            get 
-            { 
+            get
+            {
                 return ViewModelLocator.Get<MainViewModel>().IsBusy;
             }
         }
@@ -22,14 +26,50 @@ namespace ResumeTerminatedAppSample.ViewModels
         /// <summary>
         /// 写真情報
         /// </summary>
+        [IgnoreDataMember]
         public IList<PhotoGroupViewModel> Groups { get; set; }
+
+        /// <summary>
+        /// 選択中アイテム
+        /// </summary>
+        private IList<ViewModelBase> selectedItems = new ObservableCollection<ViewModelBase>();
+
+        /// <summary>
+        /// 選択中アイテム
+        /// </summary>
+        public IList<ViewModelBase> SelectedItems 
+        {
+            get { return this.selectedItems; }
+            set 
+            {
+                this.SetProperty<IList<ViewModelBase>>(ref this.selectedItems, value);
+                this.OnPropertyChanged("IsAppBarOpen");
+            }
+        }
+
+        /// <summary>
+        /// アプリバー表示フラグ
+        /// </summary>
+        public bool IsAppBarOpen 
+        { 
+            get { return this.selectedItems.Count > 0; }
+        }
+
+        private double horizontalOffset = 0;
+
+        [DataMember]
+        public double HorizontalOffset
+        {
+            get { return this.horizontalOffset; }
+            set { this.SetProperty<double>(ref this.horizontalOffset, value); }
+        }
 
         /// <summary>
         /// コンストラクタ
         /// </summary>
         public TopPageViewModel()
         {
-        }
+       }
 
         /// <summary>
         /// 初期化処理

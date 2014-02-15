@@ -38,6 +38,10 @@ namespace ResumeTerminatedAppSample.Presenters
                 mainViewModel.CurrentGroup = mainViewModel.GetGroup(e.PageState["currentGroup"] as string);
             }
             var viewModel = (TopPageViewModel)this.ViewModel;
+            if (e.PageState != null && e.PageState.ContainsKey("horizontalOffset"))
+            {
+                viewModel.HorizontalOffset = (double)e.PageState["horizontalOffset"];
+            }
 
             viewModel.Groups = mainViewModel.Groups;
 
@@ -56,6 +60,7 @@ namespace ResumeTerminatedAppSample.Presenters
             // セッションデータに現在の状態を保存する
             e.PageState["currentItem"] = mainViewModel.CurrentItem != null ? mainViewModel.CurrentItem.UniqueId : null;
             e.PageState["currentGroup"] = mainViewModel.CurrentGroup != null ? mainViewModel.CurrentGroup.UniqueId : null;
+            e.PageState["horizontalOffset"] = ((TopPageViewModel)this.ViewModel).HorizontalOffset;
 
             base.OnSaveState(sender, e);
         }
@@ -71,11 +76,11 @@ namespace ResumeTerminatedAppSample.Presenters
             var mainViewModel = ViewModelLocator.Get<MainViewModel>();
             if (mainViewModel.CurrentItem != null)
             {
-                listViewBase.ScrollIntoView(mainViewModel.CurrentItem);
+                //listViewBase.ScrollIntoView(mainViewModel.CurrentItem);
             }
             else if (mainViewModel.CurrentGroup != null)
             {
-                listViewBase.ScrollIntoView(mainViewModel.CurrentGroup);
+                //listViewBase.ScrollIntoView(mainViewModel.CurrentGroup);
             }
         }
 
