@@ -47,11 +47,6 @@ namespace ResumeTerminatedAppSample.Presenters
             viewModel.Header = group.Header;
             viewModel.AllItems = group.Items;
 
-            foreach(var item in group.Items)
-            {
-                Debug.WriteLine(string.Format("<photo title=\"{0}\" uri=\"{1}\"/>", item.Title, item.Uri));
-            }
-
             this.View.DataContext = this.ViewModel;
         }
 
